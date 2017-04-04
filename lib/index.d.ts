@@ -2,6 +2,7 @@ export declare type Stores = {
     log: string[];
     warn: string[];
     error: string[];
+    dir: string[];
 };
 export interface StoreAndResultTuple<T> {
     stores: Stores;
@@ -19,3 +20,5 @@ export interface StoreAndResultTuple<T> {
  *              - result:
  */
 export declare const blockLogOutput: <T>(fn: () => T) => StoreAndResultTuple<T>;
+export { blockLogOutput as kidnapConsole };
+export { blockLogOutput as kidnapLogs };

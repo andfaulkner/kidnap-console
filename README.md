@@ -12,6 +12,14 @@
 *   Unit testing of console output
     *   (None of the existing solutions to this were really working for me)
 
+## Installation
+
+    yarn add --dev kidnap-console
+    
+Or:
+
+    npm install --save-dev kidnap-console
+
 ----
 ## Usage
 
