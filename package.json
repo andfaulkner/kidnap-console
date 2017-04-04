@@ -1,7 +1,7 @@
 {
   "name": "kidnap-console",
   "version": "0.0.1",
-  "description": "/***** TODO Stuff and things ******/",
+  "description": "Capture and store a function's log outputs and return value, and stops its output from reaching the CLI. Makes console log testing a breeze.",
   "main": "lib/index.js",
   "typings": "lib/index",
   "files": [
